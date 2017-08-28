@@ -1,0 +1,6 @@
+LOOP 	IN A,(01H) 
+	LD IX,1900H
+	LD (IX+00H),A 
+	JP LOOP 
+	HALT
+	.END	
